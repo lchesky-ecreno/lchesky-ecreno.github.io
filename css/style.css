@@ -155,8 +155,9 @@
 @media all and (max-width: 1000px) {
 .image-op40w50 {
   max-width: 70%;
+  margin-left: 15%;
   opacity: 45%;
-  float: right;
+  float:none;
   -webkit-max-width: 50%;
   -moz-max-width: 50%;
   -o-max-width: 50%;
@@ -166,11 +167,13 @@
 
 @media all and (min-width: 1001px) {
   .image-op40w50 {
-    position: absolute;
-    max-width: 60%;
+    /* position: absolute; */
+    max-width: 80%;
+    margin-left: 10%;
     opacity: 40%;
-    right: 0;
-    bottom: -480px;
+    padding-top: 20%;
+    padding-left: 20%;
+    /* bottom: -400px; */
     -webkit-max-width: 50%;
     -moz-max-width: 50%;
     -o-max-width: 50%;
