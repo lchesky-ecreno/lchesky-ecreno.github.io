@@ -121,7 +121,7 @@ font header .navbar-default .navbar-nav li a:hover {
   letter-spacing: 3px;
 }
 #slider .freelance-bg1 {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/slider-bg.webp") no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
   background-position: 10% 0%;
@@ -129,7 +129,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
 }
 #slider .property-bg1 {
-  background: url("../img/global/property-home-modern.jpg") no-repeat;
+  background: url("../img/global/property-home-modern.webp") no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
   background-position: 10% 0%;
@@ -215,7 +215,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	call-to-action Start
 --*/
 #call-to-action {
-  background: url("../img/global/nastuh-abootalebi-walkway.jpg") no-repeat;
+  background: url("../img/global/nastuh-abootalebi-walkway.webp") no-repeat;
   background-size: cover;
   /* background-attachment: fixed; */
   padding: 70px 0px;
@@ -285,7 +285,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
   overflow: visible;
   padding: 100px 0;
-  background: url("../img/featue-bg.jpg");
+  background: url("../img/featue-bg.webp");
   background-position: 50% 94px;
   background-position-x: 50%;
   background-position-y: 50%;
@@ -310,7 +310,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
   overflow: visible;
   padding: 100px 0;
-  background: url("../img/global/coffee-media.jpg");
+  background: url("../img/global/coffee-media.webp");
   background-position: 50% 94px;
   background-position-x: 50%;
   background-position-y: 50%;
@@ -353,7 +353,7 @@ font header .navbar-default .navbar-nav li a:hover {
   position: relative;
   overflow: visible;
   padding: 100px 0;
-  background: url("../img/global/ourwork.jpg");
+  background: url("../img/global/ourwork.webp");
   background-position: 50% 94px;
   background-position-x: 50%;
   background-position-y: 50%;
@@ -547,7 +547,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #global-header .freelance-bg1 {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/slider-bg.webp") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -555,7 +555,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #global-header .property-bg1 {
-  background: url("../img/ecreno/home/stylish-metal-clad-home.jpg") no-repeat;
+  background: url("../img/ecreno/home/stylish-metal-clad-home.webp") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -563,7 +563,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #global-header .property-bg2 {
-  background: url("../img/global/construction-hat-map.jpg") no-repeat;
+  background: url("../img/global/construction-hat-map.webp") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -571,7 +571,7 @@ font header .navbar-default .navbar-nav li a:hover {
 }
 
 #global-header .property-bg3 {
-  background: url("../img/global/pipe.jpg") no-repeat;
+  background: url("../img/global/pipe.webp") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -580,7 +580,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 
 #global-header .property-bg4 {
-  background: url("../img/global/box-wall.jpg") no-repeat;
+  background: url("../img/global/box-wall.webp") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -589,7 +589,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 
 #global-header .property-bg5 {
-  background: url("../img/global/worktogether.jpg") no-repeat;
+  background: url("../img/global/worktogether.webp") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;
@@ -897,7 +897,7 @@ font header .navbar-default .navbar-nav li a:hover {
 	slider-contact Start
 --*/
 #slider-contact {
-  background: url("../img/slider-bg.jpg") no-repeat;
+  background: url("../img/slider-bg.webp") no-repeat;
   background-size: cover;
   padding-top: 150px;
   padding-bottom: 107px;

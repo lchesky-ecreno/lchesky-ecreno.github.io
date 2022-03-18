@@ -53,6 +53,29 @@
 
 
   <script src="../js/main.js"></script>
+  <script>
+    //Get the button:
+    window.onload = function () {
+      scrollUpbtn = document.getElementById("ScrollUp");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function() {scrollFunction()};
+
+      function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+          scrollUpbtn.style.display = "block";
+        } else {
+          scrollUpbtn.style.display = "none";
+        }
+      }
+    };
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+      document.body.scrollTop = 0; // For Safari
+      document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+    }
+  </script>
 </head>
 
 <body>
@@ -61,6 +84,7 @@
   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <!-- End Google Tag Manager (noscript) -->
 
+  <button onclick="topFunction()" id="ScrollUp" title="Go to top">Top</button>
 
   <header>
     <div class="container">
@@ -80,7 +104,7 @@
                 </button>
                 <div class="clogoNameBox">
                   <a href="../">
-                    <img src="../img/ecreno/logo1.png" alt="EXCEL CONCEPT RENOVATION">
+                    <img src="../img/ecreno/logo1.webp" alt="EXCEL CONCEPT RENOVATION">
                     <span style="color:#333;">EXCEL CONCEPT RENOVATION</span>
                   </a>
                 </div>
@@ -122,7 +146,6 @@
 
   <section id="testimonial">
     <div class="container">
-
       <div class="row">
         <div class="section-title text-center">
           <h2>List of Works We Do</h2>
@@ -141,7 +164,7 @@
 
             <div class="row">
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/01.png" alt="Flooring">
+                <img width="100%" src="../img/ecreno/work/01.webp" alt="Flooring">
                 <h3>Flooring</h3>
                 <ul class="listing-block-tier1">
                   <li>Vinyl flooring</li>
@@ -152,7 +175,7 @@
               </br></br>
               </div>
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/02.png" alt="Ceilings">
+                <img width="100%" src="../img/ecreno/work/02.webp" alt="Ceilings">
                 <h3>Ceilings</h3>
                 <ul class="listing-block-tier1">
                   <li>Plaster Ceiling</li>
@@ -163,7 +186,7 @@
               </br></br>
               </div>
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/03.png" alt="Artificial Grass">
+                <img width="100%" src="../img/ecreno/work/03.webp" alt="Artificial Grass">
                 <h3>Artificial Grass</h3>
                 <ul class="listing-block-tier1">
                   <li>Nylon Grass</li>
@@ -178,7 +201,7 @@
 
             <div class="row">
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/04.png" alt="Painting Works">
+                <img width="100%" src="../img/ecreno/work/04.webp" alt="Painting Works">
                 <h3>Painting Works</h3>
                 <ul class="listing-block-tier1">
                   <li>Oil Painting</li>
@@ -189,7 +212,7 @@
               </br></br>
               </div>
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/05.png" alt="Interior Kitchen And Cabinet">
+                <img width="100%" src="../img/ecreno/work/05.webp" alt="Interior Kitchen And Cabinet">
                 <h3>Interior Kitchen & Cabinet</h3>
                 <ul class="listing-block-tier1">
                   <li>Melamine Kitchen Cabinet</li>
@@ -200,7 +223,7 @@
               </br></br>
               </div>
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/06.png" alt="Steel And Aluminum Works">
+                <img width="100%" src="../img/ecreno/work/06.webp" alt="Steel And Aluminum Works">
                 <h3>Steel & Aluminum Works</h3>
                 <ul class="listing-block-tier1">
                   <li>Stainless Steel</li>
@@ -215,7 +238,7 @@
 
             <div class="row">
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/07.png" alt="Gate, Windows, Doors And Fences">
+                <img width="100%" src="../img/ecreno/work/07.webp" alt="Gate, Windows, Doors And Fences">
                 <h3>Gate, Windows, Doors & Fences</h3>
                 <ul class="listing-block-tier1">
                   <li>Grill Gates</li>
@@ -231,7 +254,7 @@
               </br></br>
               </div>
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/08.png" alt="Awning And Roof Top">
+                <img width="100%" src="../img/ecreno/work/08.webp" alt="Awning And Roof Top">
                 <h3>Awning & Roof Top</h3>
                 <ul class="listing-block-tier1">
                   <li>Retractable Awning</li>
@@ -242,7 +265,7 @@
               </br></br>
               </div>
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/09.png" alt="Interior 3D Rendering">
+                <img width="100%" src="../img/ecreno/work/09.webp" alt="Interior 3D Rendering">
                 <h3>Interior 3D Rendering</h3>
                 <ul class="listing-block-tier1">
                   <li>External 3D Visualization</li>
@@ -257,7 +280,7 @@
 
             <div class="row">
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/10.png" alt="Electrical Wiring">
+                <img width="100%" src="../img/ecreno/work/10.webp" alt="Electrical Wiring">
                 <h3>Electrical Wiring</h3>
                 <ul class="listing-block-tier1">
                   <li>New Wiring</li>
@@ -268,7 +291,7 @@
               </br></br>
               </div>
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/11.png" alt="Carpentry Works">
+                <img width="100%" src="../img/ecreno/work/11.webp" alt="Carpentry Works">
                 <h3>Carpentry Works</h3>
                 <ul class="listing-block-tier1">
                   <li>Custom Made Wood</li>
@@ -291,7 +314,7 @@
 
             <div class="row">
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/12.png" alt="Roof Repair Works">
+                <img width="100%" src="../img/ecreno/work/12.webp" alt="Roof Repair Works">
                 <h3>Roof Repair Works</h3>
                 <ul class="listing-block-tier1">
                   <li>New Roofing</li>
@@ -307,7 +330,7 @@
               </br></br>
               </div>
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/13.png" alt="Walls Fix">
+                <img width="100%" src="../img/ecreno/work/13.webp" alt="Walls Fix">
                 <h3>Walls Fix</h3>
                 <ul class="listing-block-tier1">
                   <li>Dampness</li>
@@ -320,7 +343,7 @@
               </br></br>
               </div>
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/14.png" alt="Tiles Fix">
+                <img width="100%" src="../img/ecreno/work/14.webp" alt="Tiles Fix">
                 <h3>Tiles Fix</h3>
                 <ul class="listing-block-tier1">
                   <li>Tiles Tenting</li>
@@ -335,7 +358,7 @@
 
             <div class="row">
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/15.png" alt="Aircond Servicing">
+                <img width="100%" src="../img/ecreno/work/15.webp" alt="Aircond Servicing">
                 <h3>Aircond Servicing</h3>
                 <ul class="listing-block-tier1">
                   <li>Air Filter</li>
@@ -349,7 +372,7 @@
               </br></br>
               </div>
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/16.png" alt="Windows Leakage">
+                <img width="100%" src="../img/ecreno/work/16.webp" alt="Windows Leakage">
                 <h3>Windows Leakage</h3>
                 <ul class="listing-block-tier1">
                   <li>Replace Leaky Windows</li>
@@ -360,7 +383,7 @@
               </br></br>
               </div>
               <div class="col-md-4 col-sm-8">
-                <img width="100%" src="../img/ecreno/work/17.png" alt="Plumbing Works">
+                <img width="100%" src="../img/ecreno/work/17.webp" alt="Plumbing Works">
                 <h3>Plumbing Works</h3>
                 <ul class="listing-block-tier1">
                   <li>Drain & Sewer Clearing</li>
@@ -404,7 +427,7 @@
                 <p>We are Excel Concept Renovation.</p>
                 <div class="work">
                   <a href="https://wa.link/2l3kzs" target="_blank">
-                    <img src="../img/ecreno/work/work1.png" alt="One-stop Renovation Company"></a>
+                    <img src="../img/ecreno/work/work1.webp" alt="One-stop Renovation Company"></a>
                   <p><span></span></p>
                 </div>
               </div>
@@ -414,7 +437,7 @@
                 <p>We also offer a wide range of Repair & Maintenance Services.</p>
                 <div class="work">
                   <a href="https://wa.link/2l3kzs" target="_blank">
-                    <img src="../img/ecreno/work/work2.png" alt="Repair And Maintenance Services"></a>
+                    <img src="../img/ecreno/work/work2.webp" alt="Repair And Maintenance Services"></a>
                   <p><span></span></p>
                 </div>
               </div>
@@ -424,7 +447,7 @@
                 <p>Roofing? Roof leaking? We do!</p>
                 <div class="work">
                   <a href="https://wa.link/2l3kzs" target="_blank">
-                    <img src="../img/ecreno/work/work3.png" alt="Roof Works"></a>
+                    <img src="../img/ecreno/work/work3.webp" alt="Roof Works"></a>
                   <p><span></span></p>
                 </div>
               </div>
@@ -434,7 +457,7 @@
                 <p>Design by you, Build by us.</p>
                 <div class="work">
                   <a href="https://wa.link/2l3kzs" target="_blank">
-                    <img src="../img/ecreno/work/work4.png" alt="Design And Build"></a>
+                    <img src="../img/ecreno/work/work4.webp" alt="Design And Build"></a>
                   <p><span></span></p>
                 </div>
               </div>
@@ -444,7 +467,7 @@
                 <p>Build your very own Luxury Apartment.</p>
                 <div class="work">
                   <a href="https://wa.link/2l3kzs" target="_blank">
-                    <img src="../img/ecreno/work/work5.png" alt="Luxury Apartment"></a>
+                    <img src="../img/ecreno/work/work5.webp" alt="Luxury Apartment"></a>
                   <p><span></span></p>
                 </div>
               </div>
@@ -454,7 +477,7 @@
                 <p>From Gate to Fences, all you can choose from! </p>
                 <div class="work">
                   <a href="https://wa.link/2l3kzs" target="_blank">
-                    <img src="../img/ecreno/work/work6.png" alt="Steel And Aluminum"></a>
+                    <img src="../img/ecreno/work/work6.webp" alt="Steel And Aluminum"></a>
                   <p><span></span></p>
                 </div>
               </div>
@@ -483,7 +506,7 @@
 
                 <li class="mix Renovation">
                   <a href="#">
-                    <img src="../img/portfolio/work1.jpg" alt="">
+                    <img src="../img/portfolio/work1.webp" alt="">
                     <div class="overly">
                       <div class="position-center">
                         <h2>Renovation Location One</h2>
@@ -495,7 +518,7 @@
 
                 <li class="mix Renovation">
                   <a href="#">
-                    <img src="../img/portfolio/work2.jpg" alt="">
+                    <img src="../img/portfolio/work2.webp" alt="">
                     <div class="overly">
                       <div class="position-center">
                         <h2>Renovation Location Two</h2>
@@ -507,7 +530,7 @@
 
                 <li class="mix Construction">
                   <a href="#">
-                    <img src="../img/portfolio/work2.jpg" alt="">
+                    <img src="../img/portfolio/work2.webp" alt="">
                     <div class="overly">
                       <div class="position-center">
                         <h2>Construction Location One</h2>
@@ -519,7 +542,7 @@
 
                 <li class="mix Construction">
                   <a href="#">
-                    <img src="../img/portfolio/work2.jpg" alt="">
+                    <img src="../img/portfolio/work2.webp" alt="">
                     <div class="overly">
                       <div class="position-center">
                         <h2>Construction Location Two</h2>
@@ -531,7 +554,7 @@
 
                 <li class="mix Interior">
                   <a href="#">
-                    <img src="../img/portfolio/work3.jpg" alt="">
+                    <img src="../img/portfolio/work3.webp" alt="">
                     <div class="overly">
                       <div class="position-center">
                         <h2>Interior Location Three</h2>
@@ -557,51 +580,51 @@
           <div id="clients-logo" class="owl-carousel">
             
             <div class="clients-logo-img">
-              <a href="#"><img src="..//img/clients/clients-logo1.png" alt="Features"></a>
+              <a href="#"><img src="..//img/clients/clients-logo1.webp" alt="Features"></a>
             </div>
             
             <div class="clients-logo-img">
-              <a href="#"><img src="..//img/clients/clients-logo2.png" alt="Features"></a>
+              <a href="#"><img src="..//img/clients/clients-logo2.webp" alt="Features"></a>
             </div>
             
             <div class="clients-logo-img">
-              <a href="#"><img src="..//img/clients/clients-logo3.png" alt="Features"></a>
+              <a href="#"><img src="..//img/clients/clients-logo3.webp" alt="Features"></a>
             </div>
             
             <div class="clients-logo-img">
-              <a href="#"><img src="..//img/clients/clients-logo4.png" alt="Features"></a>
+              <a href="#"><img src="..//img/clients/clients-logo4.webp" alt="Features"></a>
             </div>
             
             <div class="clients-logo-img">
-              <a href="#"><img src="..//img/clients/clients-logo5.png" alt="Features"></a>
+              <a href="#"><img src="..//img/clients/clients-logo5.webp" alt="Features"></a>
             </div>
             
             <div class="clients-logo-img">
-              <a href="#"><img src="..//img/clients/clients-logo4.png" alt="Features"></a>
+              <a href="#"><img src="..//img/clients/clients-logo4.webp" alt="Features"></a>
             </div>
             
             <div class="clients-logo-img">
-              <a href="#"><img src="..//img/clients/clients-logo3.png" alt="Features"></a>
+              <a href="#"><img src="..//img/clients/clients-logo3.webp" alt="Features"></a>
             </div>
             
             <div class="clients-logo-img">
-              <a href="#"><img src="..//img/clients/clients-logo2.png" alt="Features"></a>
+              <a href="#"><img src="..//img/clients/clients-logo2.webp" alt="Features"></a>
             </div>
             
             <div class="clients-logo-img">
-              <a href="#"><img src="..//img/clients/clients-logo1.png" alt="Features"></a>
+              <a href="#"><img src="..//img/clients/clients-logo1.webp" alt="Features"></a>
             </div>
             
             <div class="clients-logo-img">
-              <a href="#"><img src="..//img/clients/clients-logo2.png" alt="Features"></a>
+              <a href="#"><img src="..//img/clients/clients-logo2.webp" alt="Features"></a>
             </div>
             
             <div class="clients-logo-img">
-              <a href="#"><img src="..//img/clients/clients-logo3.png" alt="Features"></a>
+              <a href="#"><img src="..//img/clients/clients-logo3.webp" alt="Features"></a>
             </div>
             
             <div class="clients-logo-img">
-              <a href="#"><img src="..//img/clients/clients-logo4.png" alt="Features"></a>
+              <a href="#"><img src="..//img/clients/clients-logo4.webp" alt="Features"></a>
             </div>
             
           </div>
