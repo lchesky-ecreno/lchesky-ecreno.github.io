@@ -83,6 +83,9 @@ px      68    160    252    344    436    528    620    712    */
   #portfolio-work .block .portfolio-manu {
     padding-left: 0px;
   }
+  #portfolio-work .block .portfolio-contant ul li {
+    height: 260px;
+  }
   #portfolio-work .block .portfolio-contant ul li a .img-heading {
     padding: 5px 0 5px 13px;
   }
@@ -278,6 +281,7 @@ px      68    160    252    */
   }
   #portfolio-work .block .portfolio-contant ul li {
     width: 100%;
+    height: 400px;
   }
   #portfolio-work .block .portfolio-contant ul li a .img-heading {
     padding: 5px 0 5px 13px;
